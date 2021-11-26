@@ -16,8 +16,7 @@ public class Animal {
     public Animal(String name) {
         this.name = name;
         count ++;
-
-
+        
     }
     public void run(int lengthObstacle){
         System.out.println(name + " пробежал " +lengthObstacle +"м");
